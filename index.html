@@ -1,423 +1,64 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Luca Bonamini's Portfolio Website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Portfolio webpage of Luca Bonamini" />
-	<meta name="keywords" content="portfolio,website,personal website,github,projects,robotics,artificial intelligence, gaming, physics, autonomous driving" />
-	<meta name="author" content="Luca Bonamini" />
+<!DOCTYPE html>
+<html lang="en" class="bg-black text-green-500 font-mono">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luca Bonamini</title>
+    <meta name="description" content="Luca Bonamini | Freelance Robotics Engineer | ROS 2, navigation, manipulation, autonomous systems.">
+    <meta name="author" content="Luca Bonamini">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    </head>
 
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://kit.fontawesome.com/57922acb9e.js" crossorigin="anonymous"></script>
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="icon" type="image/png" href="images/code-icon.png">
+  <body class="max-w-3xl mx-auto p-6">
+    <header>
+      <h1 class="text-4xl">&gt; Luca Bonamini</h1>
+      <p class="mt-4">
+        Freelance Robotics Software Engineer. I design and build intelligent autonomous systems that sense, plan, and act.
+      </p>
+    </header>
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-		
-	</head>
-    
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		  <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
-		  <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/personal-photo.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="https://lucabonamini.github.io">Luca Bonamini</a></h1>
-				<p><strong>Robotics Software Engineer @ <a href="http://www.yapemobility.it" target="_blank">Yape s.r.l.</a><br></strong></p>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-                        <li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Work Experience</a></li>
-						<li><a href="#" data-nav-section="publications">Publications</a></li>
-						<li><a href="#" data-nav-section="contact">Contacts & Links</a></li>
-					</ul>
-				</div>
-				<div id="links" role="navigation" class="navbar">
-					<ul>
-						<a href="https://www.linkedin.com/in/luca-bonamini/" class="fab fa-linkedin-in" target="_blank"></a> &nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="https://github.com/lucabonamini" class="fab fa-github" target="_blank"></a> 
-					</ul>
-				</div>
-            </nav>
-		</aside>
-            
-            <!--- Github ribbon ----------->
-    <!-- <a href="https://github.com/federicomassa/federicomassa.github.io" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style> -->
-            
-            <!----- main page--------->
-    <div id="colorlib-main">
-        <section class="colorlib-about" data-section="about">
-            <div class="colorlib-narrow-content">
-				<div class="row">
-				    <div class="col-md-12">
-				        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-				            <div class="col-md-12">
-								<div class="about-desc">
-								    <h2>About Me</h2>
-									<hr>
-									<p>I'm a <b>Robotics Software Engineer</b> with a focus on <b>Autonomous Driving</b> currently working at <a href="http://yapemobility.it/" target="_blank">Yape s.r.l</a>. 
-									I received my Bachelor Degree in <b>Mechanical Engineering</b> from University of Genova and the  Master Degree in <b>Robotics and Automation Engineering</b> 
-									from University of Pisa, in 2015 and 2018, respectively. After graduation, I started a collaboration as Research Fellow at Research Center “E.Piaggio” 
-									of the University of Pisa, where I joined <a href="https://www.youtube.com/watch?v=0jk1RVqIYYU" target="_blank">Roboteam-Italia</a>, one of the teams of 
-									<a href="https://roborace.com/" target="_blank">Roborace</a>, an <b>autonomous full scale electric racing car</b> competition. I joined <b>Proxima Robotics s.r.l.</b>
-									in 2020, where I was responsible for developing planning and control algorithms for mobile robots.</p>
-									<p>Below you can see some of my projects.</p>
-								</div>
-				        	</div>
-                    	</div>
-				    <div class="row">
-				        <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-				            <a href="robotics/robotics.html" target="_self">
-                                <div class="services color-1">
-								    <span class="icon2"><i class="fa fa-robot"></i></span>
-								    <h3>Robotics<br></h3> 
-								</div>
-				            </a>
-						</div>
-						<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-							<a href="cpp/cpp.html" target="_self">
-													<div class="services color-2">
-							<span class="icon2"><i class="fa fa-robot"></i></span>
-							<h3>C++<br></h3> 
-					</div>
-							</a>
-			</div>					
-				    </div>   
-                </div>
-            </div>
-        </div>
+    <section class="mt-10">
+      <h2 class="text-2xl"># About</h2>
+      <p class="mt-2">
+        I'm a robotics engineer based in Italy, with extensive experience in autonomy, navigation, control, and system integration. I work with clients across industries to deliver real-world robotic solutions.
+      </p>
+      <p class="mt-2">
+        My focus is on turning complex requirements into working systems — whether it's building a ROS 2 navigation stack, designing motion planning algorithms, or deploying containerized simulation environments. I bring both strategic vision and hands-on execution.
+      </p>
     </section>
-            
-    <section class="colorlib-skills" data-section="skills">
-        <div class="colorlib-narrow-content">
-            <div class="row">
-				<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-						<!--	<span class="heading-meta">My Specialty</span> -->
-				    <h2>Skills</h2>
-					<hr>
-					<p>These are some of my main computer skills.</p>
-				</div>
-            </div>
-            <div class="row">
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-				    <div class="progress-wrap">
-				        <h3>C/C++</h3>
-				        <div class="progress">
-				            <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								<span>90%</span>
-				            </div>
-                        </div>
-				    </div>
-				</div>
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="progress-wrap">
-						<h3>ROS</h3>
-						<div class="progress">
-							<div class="progress-bar color-8" role="progressbar" aria-valuenow="90"
-										aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								<span>90%</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="progress-wrap">
-						<h3>Python</h3>
-						<div class="progress">
-							<div class="progress-bar color-7" role="progressbar" aria-valuenow="80"
-									aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								<span>80%</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-				    <div class="progress-wrap">
-				        <h3>MATLAB & Simulink</h3>
-				        <div class="progress">
-				            <div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
-                                 aria-valuemin="0" aria-valuemax="100" style="width:70%">
-				                <span>60%</span>
-				            </div>
-				        </div>
-				    </div>
-				</div>
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="progress-wrap">
-						<h3>Git</h3>
-						<div class="progress">
-							<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								<span>80%</span>
-							</div>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-				    <div class="progress-wrap">
-				        <h3>Bash scripting</h3>
-				        <div class="progress">
-				            <div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								<span>50%</span>
-				            </div>
-				        </div>
-				    </div>
-				</div>
-            </div>
-        </div>
+    <section class="mt-10">
+      <h2 class="text-2xl"># What I Do</h2>
+      <ul class="list-disc pl-6 mt-2">
+        <li>Autonomous Navigation – ROS 2 and C++ development for production navigation stacks</li>
+        <li>Sensor Fusion – Kalman filtering with lidar, GPS, and encoder integration</li>
+        <li>Simulation & Testing – Docker, Ignition Gazebo, and Foxglove development environments</li>
+        <li>Industrial Robotics – Robotic manipulator control for palletizing and welding automation</li>
+        <li>High-Performance Control – Real-time planning and control for autonomous racing applications</li>
+        <li>Behavior Management – Behavior trees for high-level autonomous system decision making</li>
+        <li>Cloud Integration – MQTT, AWS connectivity, and distributed data logging systems</li>
+        <li>Team Leadership – Agile consulting and R&D team management</li>
+      </ul>
     </section>
-        
-    <section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2>Education</h2>
-                            <hr>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-											<div class="panel-heading" role="tab" id="heading-2">
-												<h4 class="panel-title">
-													<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapseTwo">MSc in Robotics and Automation Engineering
-													</a>
-												</h4>
-											</div>
-											<div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-												<div class="panel-body">
-													<p>MSc in Robotics and Automation Engineering at the University of Pisa in 2018 with 106/110, with a thesis on Shared Autonomy Control and Augmented Reality Feedback for robot tele-operation.</a></strong></p>
-												</div>
-											</div>
-									</div>
-									<div class="panel panel-default">
-										<div class="panel-heading" role="tab" id="heading-3">
-											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapseTwo">BSc in Mechanical Engineering
-												</a>
-											</h4>
-										</div>
-										<div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
-											<div class="panel-body">
-												<p>BSc in Mechanical Engineering at the University of Genova in 2015, with a thesis on the design of a two-stage parallel shaft gear reducer.</a></strong></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>    
 
-        	<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2>Work Experience</h2>
-                            <hr>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-								<div class="timeline-entry-inner">
-									<div class="timeline-icon color-1">
-										<i class="fas fa-car"></i>
-									</div>
-									<div class="timeline-label">
-										<h2><strong>Yape s.r.l.<strong> <span>Mar 2021 - Present</span></h2>
-										<p><strong>Robotics Software Engineer</strong></p>
-										<li>Architect and lead the development of the navigation stack with C++/ROS</li>
-										<li>Supervision of the development of a SIL system</li>
-										<li>Development of a C++ library for CAN communication</li>
-										<li>Development of an automated data logging system</li>
-										<li>Development of an MQTT library in C++ for communication with AWS Cloud</li>
-										<li>Development of generalized header-only Kalman Filter library for multi-sensor fusion for localization purpose</li>
-										<li>Conduct code reviews and junior engineers tutoring</li>
-										<li>Working in an Agile software development environment</li>
-									</div>
-								</div>
-							</article>
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-								<div class="timeline-entry-inner">
-									<div class="timeline-icon color-2">
-										<i class="fas fa-robot"></i>
-									</div>
-									<div class="timeline-label">
-										<h2><strong>Proxima Robotics s.r.l.<strong> <span>Mar 2020 - Mar 2021</span></h2>
-										<p><strong>Robotics Software Engineer</strong></p>
-										<li>Development of a trajectory planning algorithm in a Frenet Frame for obstacle avoidance</li>
-										<li>Development of an Adaptive Pure Pursuit controller for path tracking</li>
-										<li>Development of tools for offline data debug and visualization</li>
-										<li>Development and integration of an automated CI/CD pipeline for production software deployment</li>
-										<li>Working in an Agile software development environment</li>
-									</div>
-								</div>
-							</article>
-					        <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="fas fa-car"></i>
-					               </div>
-					               <div class="timeline-label">
-					                  <h2><strong>Roboteam Italia<strong> <span>Dec 2018 - Mar 2020</span></h2>
-                                       <p><strong>Robotics Software Engineer | State Estimation, Planning and Control</strong></p>
-										<li>Development of an optimal trajectory planning algorithm for lane change and obstacle avoidance for autonomous racing cars</li>
-										<li>Development of a lidar-based localisation system for autonomous racing cars in a GNSS denied environment</li>
-										<li>Development of real-time sensors interfaces in ROS</li>
-										<li>Development and contribution to an MPC controller for real-time path tracking</li>
-										<li>Supervision of a small team of University students</li>
-					               </div>
-								</div>
-								<div class="timeline-tabbed">
-									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-											<div class="timeline-entry-inner">
-			
-												<div class="timeline-icon color-none">
-													<i class="icon-code"></i>
-												</div>
+    <section class="mt-10">
+      <h2 class="text-2xl"># Featured Projects</h2>
+      <ul class="list-disc pl-6 mt-2">
+        <li><strong>Autonomous Delivery Robot</strong> – Complete navigation stack with CAN interface and real-time cloud communication for urban delivery operations.</li>
+        <li><strong>Tractor Autonomy PoC</strong> – Led team developing multi-sensor fusion using lidar, GPS, encoders, and Kalman filtering for agricultural automation.</li>
+        <li><strong>Industrial Manipulators</strong> – Production ROS-based control systems for automated palletizing and welding applications.</li>
+        <li><strong>Autonomous Racing</strong> – High-speed path planning, MPC control, and perception pipeline development for racing platforms.</li>
+      </ul>
+    </section>
 
-												<div class="timeline-label">
-													<h2><strong>Roborace Event</strong> <span>6 - 9 August 2019</span></h2>
-													<p><a href="https://www.youtube.com/watch?v=KbEJHBAieM0" target="_blank">Localization challenge</a> at  Zala Zone (Hungary)</p>
-												</div>
-
-											</div>
-									</article>
-								</div>
-							</article>
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-								<div class="timeline-entry-inner">
-									<div class="timeline-icon color-4">
-										<i class="fas fa-graduation-cap"></i>
-									</div>
-
-									<div class="timeline-label">
-										<h2><strong>Research Center "E. Piaggio"<strong> <span>Dec 2018 - Mar 2020</span></h2>
-										<p><strong>Research Fellow</strong></p>
-										<li>Development of an Augmented Reality system for robots teleoperation</li>
-										<li>Development a ROS based navigation stack for Alter-EGO project</li>
-									</div>
-								</div>
-							</article>
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-								<div class="timeline-entry-inner">
-
-									<div class="timeline-icon color-5">
-										<i class="fas fa-graduation-cap"></i>
-									</div>
-
-									<div class="timeline-label">
-										<h2><strong>Master's degree<strong> <span>Sept 2015 - Nov 2018</span></h2>
-										<p><strong>Towards a shared autonomy control framework: application to Ego robot navigation</strong></p>
-									</div>
-								</div>
-							</article>
-
-							<article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-							<div class="timeline-entry-inner">
-								<div class="timeline-icon color-none">
-								</div>
-							</div>
-							</article>
-							</div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-	<section class="colorlib-publications" data-section="publications">
-			<div class="colorlib-narrow-content">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-							<h2>Publications</h2>
-							<hr>
-							<ul>
-							<li>Massa, F.; Bonamini, L.; Settimi, A.; Pallottino, L.; Caporale, D. LiDAR-Based GNSS Denied Localization for Autonomous Racing Cars. Sensors 2020, 20, 3992. </li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-			
-    <section class="colorlib-contact" data-section="contact">
-        <div class="colorlib-narrow-content">
-            <div class="row">
-                <div class="col-md-12">
-				    <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-				        <h2>Contacts & Links</h2>
-                        <hr>
-						<li>E-mail: <strong><a href = "mailto: lucabonamini28@gmail.com" target="_blank">lucabonamini28@gmail.com</a></strong></li>
-						<li><strong><a href = "https://www.linkedin.com/in/luca-bonamini/" target="_blank">Linkedin</a></strong></li>
-						<li><strong><a href = "https://github.com/lucabonamini" target="_blank">GitHub</a></strong></li>
-						<li><strong><a href = "./resume.pdf" target="_blank">Resume (PDF)</a></strong></li>
-				    </div>
-				</div>
-            </div>
-        </div>
-	</section>
-
-</div><!-- end:colorlib-main -->
-</div><!-- end:container-wrap -->
-</div><!-- end:colorlib-page -->
-     
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+    <section class="mt-10">
+      <h2 class="text-2xl"># Contact</h2>
+      <p class="mt-2">Email: <a class="underline" href="mailto:lucabonamini28@gmail.com">lucabonamini28@gmail.com</a></p>
+      <p>GitHub: <a class="underline" href="https://github.com/lucabonamini">github.com/lucabonamini</a></p>
+      <p>LinkedIn: <a class="underline" href="https://www.linkedin.com/in/luca-bonamini">linkedin.com/in/luca-bonamini</a></p>
+      <p class="mt-6">📄 <a class="underline" href="resume.pdf" download>Download my resume</a></p>
+      <p class="mt-10 text-green-300">Looking for a robotics expert? <a href="mailto:lucabonamini28@gmail.com" class="underline">Let’s talk.</a></p>
+    </section>
+  </body>
 </html>
-
-
